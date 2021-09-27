@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_green"
+    android:orientation="vertical"
+    tools:context=".SeputarActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/pencak_s"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/back_button"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_arrow_back_black_24dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_light"
+                android:text="Seputar"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_extrabold"
+                android:text="Pencak Silat"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/long_seputar"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="A. Pengertian"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_light"
+                        android:text="   Menurut guru pencak silat Bawean, “Abdul Syukur  (dalam O`ong Maryoko;1998). Pencak silat adalah gerakan langkah keindahan dengan menghindar, yang disertakan gerakan berunsur komedi."
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_light"
+                        android:text="   Menurut Agung Nugroho A.M, (2001) Pencak silat adalah suatu model beladiri yang diciptakan untuk mempertahankan diri dari bahaya yang dapat mengancam keselamatan dan kelangsungan hidup."
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_light"
+                        android:text="   Menurut Muhajir (2007:69) bahwa Pencak silat adalah beladiri asli Indonesia yang telah berumur berabad-abad."
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_light"
+                        android:text="   Menurut Hasan Habudin, pencak merupakan seni bela diri yang diperagakan dengan diatur, padahal silat sebagai inti sari dari pecak tidak dapat diperagakan. Dikalangan suku Madura pencak dianggap berakar dari bahasa Madura “aperangkarepeng laju aloncak”, yaitu bergerak tanpa aturan sambil meloncak. Silat merupakan sang pemain berloncat kian kemari seperti kilat."
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_light"
+                        android:text="   Menurut Boechori Ahmad, pencak merupakan fitrah manusia untuk membela diri. Sementara silat merupakan sebagai unsur yang menghubungkan gerakkan dan pikiran."
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_light"
+                        android:text="   Menurut Soetardjonegoro, pencak merupakan gerak bela serang yang teratur menurut sistem, waktu, tempat dan iklim dengan selalu menjaga kehormatan masing – masing secara kstaria, tidak melukai perasaan. Silat merupakan gerak bela serang yang erat hubungannya dengan rohani, sehingga menghidup suburkan naluri, menggerakkan hati nurani manusia, langsung menyerang kepada Tuhan Yang Maha Esa."
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_light"
+                        android:text="   Pada seminar pencak silat tahun 1973 di tugu Bogor dihasilkan istilah baku pencak silat. Dalam Kamus Besar Bahasa Indonesia (dalam Erwin Setyo K, 2015 : 14) istilah pencak silat mempunyai arti permainan  (keahlian) dalam mempertahankan diri dengan kepandaian menangkis, menyerang, dan membela diri, baik dengan senjata maupun dengan senjata."
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_light"
+                        android:text="   Pada tahun 1995 pengrus besar IPSI memyempurnakan arti pencak silat (dalam Erwin Setyo K, 2015 : 14), yaitu bela-serang yang diatur menurut sistem, waktu, tempat, dan iklim dengan selalu menjaga kehormatan masing – masing secara ksatria, tidak melukai perasaan."
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_light"
+                        android:text="   Dari uraian diatas dapat disimpulkan bahwa Pencak Silat adalah satu cabang olahraga beladiri warisan nenek moyang bangsa Indonesia yang dalam mempertahankan diri dengan kepandaian menangkis, menyerang, dan membela diri, baik dengan senjata maupun tanpa senjata yang merupakan hasil budi dan akal manusia, lahir dari sebuah proses perenungan, pembelajaran dengan gerak dasar yang terikat pada peraturan dan digunakan dalam belajar, latihan dan pertunjukan, serta sebagai gerak beladiri sempurna yang bersumber pada kerohanian suci murni guna keselamatan diri atau kesejahteraan bersama."
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="B. Sejarah"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_light"
+                        android:text="   Pada mulanya pencak silat diciptakan manusia untuk memperoleh keamanan dari ancaman binatang buas. Tidak tahu kapan, dimana, dan bagaimana pertama kali proses tersebut berlangsung karena informasi yang tersedia sangat terbatas. Namun demikian menurut catatan sejarah, pencak silat berkembang dikawasan Indonesia seperti yang diungkapkan oleh : “Draeger (dalam O,ong Maryono : 1998 : 37) Pentjak Silat is certainly to be termed a combative form indigenous to Indonesia. But it is a synthesis product, not purely autogenic endeavour.” "
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_light"
+                        android:text="   Dalam sejarah perjuangan melawan penjajah Belanda, tercatat para pendekar yang mengangkat senjata, seperti Panemban Senopati, Sultan Agung, Pangeran Diponegoro, Teuku Cik Di Tiro, Teuku Umar, Imam Bonjol, serta para pendekar wanita, seperti Sabai Nan Aluih, Cut Nyak Dhien, dan Cut Nyak Meutia. Pada tanggal 18 Mei 1948, terbentuklah Ikatan Pencak Silat Indonesia (IPSI) kini IPSI tercatat sebagai organisasi silat nasional tertua di dunia. Pada 11 Maret 1980, Persatuan Silat Antarbangsa (Persilat) didirikan atas prakarsa Eddie M. Nalapraya (Indonesia), yang saat itu menjabat ketua IPSI. Acara tersebut juga dihadiri oleh perwakilan dari Malaysia, Singapura, dan Brunei Darussalam. Keempat negara itu termasuk Indonesia, ditetapkan sebagai pendiri Persilat."
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_light"
+                        android:text="   Pencak silat adalah beladiri asli dari Indonesia, teknik – teknik yang digunakan dalam pencak silat adalah beraneka ragam yang berasal dari nenek moyang bangsa Indonesia. Sejak zaman dulu sampai sekarang teknik pencak silat berkembang sesuai dengan berkembangnya ilmu pengetahuan. Pencak silat tidak hanya berkembang di seantero nusantara namun juga sampai di negara tetangga Malaysia, Singapura, Brunei Darussalam bahkan di benua Afrika, namun asal muasal pencak silat telah diakui bahwa Indonesia adalah tempat lahir beladiri ini."
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="C. Unsur-unsur"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_marginLeft="18dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_light"
+                        android:text="1. Olahraga\n2. Kesenian\n3. Bela diri\n4. Pendidikan mental kerohanian\n5. Persaudaraan menuju persatuan"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="D. Tujuan"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="18dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="1.  "
+                            android:textColor="@color/white"
+                            android:textSize="14sp"></TextView>
+
+                        <com.codesgood.views.JustifiedTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="Sebagai tempat bagi generasi yang memiliki hobi olahraga khususnya beladiri untuk menyalurkan bakat dan minatnya."
+                            android:textColor="@color/white"
+                            android:textSize="14sp"></com.codesgood.views.JustifiedTextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="18dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="2. "
+                            android:textColor="@color/white"
+                            android:textSize="14sp"></TextView>
+
+                        <com.codesgood.views.JustifiedTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="Membentuk masyarakat “Berjiwa Sehat, Berpikir Cerdas, Berprestasi”."
+                            android:textColor="@color/white"
+                            android:textSize="14sp"></com.codesgood.views.JustifiedTextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="18dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="3. "
+                            android:textColor="@color/white"
+                            android:textSize="14sp"></TextView>
+
+                        <com.codesgood.views.JustifiedTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="Membentuk dan mendidik kader-kader bangsa agar memiliki sikap ksatria, berani membela kebenaran dan keadilan, disiplin yang tinggi serta tanggung jawab lahir dan batin."
+                            android:textColor="@color/white"
+                            android:textSize="14sp"></com.codesgood.views.JustifiedTextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="18dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="4. "
+                            android:textColor="@color/white"
+                            android:textSize="14sp"></TextView>
+
+                        <com.codesgood.views.JustifiedTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="Mendorong dan menggerakkan masyarakat agar lebih memahami dan menghayati langsung hakikat dan manfaat olahraga Pencak Silat sebagai kebutuhan hidup."
+                            android:textColor="@color/white"
+                            android:textSize="14sp"></com.codesgood.views.JustifiedTextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="18dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="5. "
+                            android:textColor="@color/white"
+                            android:textSize="14sp"></TextView>
+
+                        <com.codesgood.views.JustifiedTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="Mendidik generasi mudah agar tidak terjerumus pergaulan bebas, pengguna obat terlarang."
+                            android:textColor="@color/white"
+                            android:textSize="14sp"></com.codesgood.views.JustifiedTextView>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="E. Manfaat"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_light"
+                        android:text="    1.  Manfaat Silat Untuk Seni"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="29dp"
+                        android:fontFamily="@font/poppins_light"
+                        android:text="  Pencak silat ditinjau dari sudut seni harus mempunyai keselarasan dan keseimbangan antara wirama, wirasa, dan wiraga, atau keserasian irama, penyajian teknik, dan penghayatan. Pada seni pencak silat penekanan dan dominasi dapat diletakkan pada:"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"></com.codesgood.views.JustifiedTextView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="29dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="a. "
+                            android:textColor="@color/white"
+                            android:textSize="14sp"></TextView>
+
+                        <com.codesgood.views.JustifiedTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="Gerak bela diri yang diperhalus dan diperindah"
+                            android:textColor="@color/white"
+                            android:textSize="14sp"></com.codesgood.views.JustifiedTextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="29dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="b. "
+                            android:textColor="@color/white"
+                            android:textSize="14sp"></TextView>
+
+                        <com.codesgood.views.JustifiedTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="Gerak tari yang mengambil motif-motif bela diri pencak silat."
+                            android:textColor="@color/white"
+                            android:textSize="14sp"></com.codesgood.views.JustifiedTextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="29dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="c. "
+                            android:textColor="@color/white"
+                            android:textSize="14sp"></TextView>
+
+                        <com.codesgood.views.JustifiedTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="Gerak tari yang diwarnai gerak pencak silat sekadarnya sebagai situasi saja"
+                            android:textColor="@color/white"
+                            android:textSize="14sp"></com.codesgood.views.JustifiedTextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="29dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="d. "
+                            android:textColor="@color/white"
+                            android:textSize="14sp"></TextView>
+
+                        <com.codesgood.views.JustifiedTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="Gerak perpaduan yang seimbang dan selaras antara tari dan bela diri."
+                            android:textColor="@color/white"
+                            android:textSize="14sp"></com.codesgood.views.JustifiedTextView>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_light"
+                        android:text="    2. Manfaat Silat Untuk Beladiri"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="29dp"
+                        android:fontFamily="@font/poppins_light"
+                        android:text="  Manfaat pencak silat untuk bela diri sesuai dengan ciri-ciri umum pencak silat Indonesia, antara lain:"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"></com.codesgood.views.JustifiedTextView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="29dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="a. "
+                            android:textColor="@color/white"
+                            android:textSize="14sp"></TextView>
+
+                        <com.codesgood.views.JustifiedTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="Pencak silat mempergunakan seluruh bagian anggota tubuh dari ujung jari tangan, kaki sampai kepala"
+                            android:textColor="@color/white"
+                            android:textSize="14sp"></com.codesgood.views.JustifiedTextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="29dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="b. "
+                            android:textColor="@color/white"
+                            android:textSize="14sp"></TextView>
+
+                        <com.codesgood.views.JustifiedTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="Pencak silat dapat dilakukan dengan tangan kosong dan dengan senjata."
+                            android:textColor="@color/white"
+                            android:textSize="14sp"></com.codesgood.views.JustifiedTextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="29dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="c. "
+                            android:textColor="@color/white"
+                            android:textSize="14sp"></TextView>
+
+                        <com.codesgood.views.JustifiedTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="Pencak silat tidak memerlukan senjata tertentu. Benda apapun dapat dijadikan senjata (saputangan, tas, payung, ikat pinggang, dan sebagainya)."
+                            android:textColor="@color/white"
+                            android:textSize="14sp"></com.codesgood.views.JustifiedTextView>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_light"
+                        android:text="    3. Manfaat Silat Untuk Pendidikan"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="29dp"
+                        android:fontFamily="@font/poppins_light"
+                        android:text="  Hasil akhir dari pengajaran olahraga pencak silat adalah kemampuan, keterampilan, dan kemantapan dalam mempertahankan dan membela diri terhadap ancaman bahaya dari dalam maupun luar, serta untuk menjamin keselarasan dengan alam sekitarnya. "
+                        android:textColor="@color/white"
+                        android:textSize="14sp"></com.codesgood.views.JustifiedTextView>
+
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

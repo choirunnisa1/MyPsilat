@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_green"
+    tools:context=".EvaluasiActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_progress"
+                android:text="1"
+                android:gravity="center"
+                android:textColorHint="#000"
+                android:fontFamily="@font/poppins_bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:fontFamily="@font/poppins_light"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="Dalam permainan sepak bola, jika ingin mengoperkan bola jarak jauh, bagian kaki yang digunakan untuk menendang bola adalah..."
+                android:id="@+id/tv_question"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_marginTop="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:id="@+id/ll_progress_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            </LinearLayout>
+
+            <TextView
+                android:textSize="18sp"
+                android:text="2 x 20 menit"
+                android:id="@+id/optionOne"
+                android:gravity="center"
+                android:padding="15dp"
+                android:textColor="#000"
+                android:fontFamily="@font/poppins_light"
+                android:layout_margin="10dp"
+                android:background="@drawable/background_option"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:fontFamily="@font/poppins_light"
+                android:textSize="18sp"
+                android:text="2 x 20 menit"
+                android:id="@+id/optionTwo"
+                android:gravity="center"
+                android:padding="15dp"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:background="@drawable/background_option"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:textSize="18sp"
+                android:text="2 x 20 menit"
+                android:id="@+id/optionTree"
+                android:gravity="center"
+                android:padding="15dp"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:background="@drawable/background_option"
+                android:layout_width="match_parent"
+                android:fontFamily="@font/poppins_light"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:textSize="18sp"
+                android:text="2 x 20 menit"
+                android:id="@+id/optionFour"
+                android:gravity="center"
+                android:padding="15dp"
+                android:fontFamily="@font/poppins_light"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:background="@drawable/background_option"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:textSize="18sp"
+                android:text="2 x 20 menit"
+                android:id="@+id/optionFive"
+                android:gravity="center"
+                android:padding="15dp"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/poppins_light"
+                android:background="@drawable/background_option"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:fontFamily="@font/poppins_bold"
+                android:padding="15dp"
+                android:text="SUBMIT"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:background="@drawable/back_donker"
+                android:id="@+id/btn_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

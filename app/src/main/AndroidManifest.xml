@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.apps.mypsilat">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyPsilat">
+        <activity android:name=".tendang.TendanganSabitActivity"></activity>
+        <activity android:name=".tendang.TendanganTActivity" />
+        <activity android:name=".tendang.TendanganLurusActivity" />
+        <activity android:name=".tangkis.TangkisanLuarActivity" />
+        <activity android:name=".tangkis.TangkisanDalamActivity" />
+        <activity android:name=".tangkis.TangkisanBawahActivity" />
+        <activity android:name=".tangkis.TangkisanAtasActivity" />
+        <activity android:name=".polalangkah.PolaLangkahSegitigaActivity" />
+        <activity android:name=".polalangkah.PolaLangkahUActivity" />
+        <activity android:name=".polalangkah.PolaLangkahLurusActivity" />
+        <activity android:name=".pukul.PukulanLingkarActivity" />
+        <activity android:name=".pukul.PukulanSangkalActivity" />
+        <activity android:name=".pukul.PukulanDepanActivity" />
+        <activity android:name=".elakan.ElakanAtasActivity" />
+        <activity android:name=".elakan.ElakanSampingActivity" />
+        <activity android:name=".elakan.ElakanBawahActivity" />
+        <activity android:name=".hindar.HindaranKakiSilangActivity" />
+        <activity android:name=".hindar.HindaranAngkatKakiActivity" />
+        <activity android:name=".hindar.HindaranSisiActivity" />
+        <activity android:name=".kuda.KudaTengahActivity" />
+        <activity android:name=".kuda.KudaSampingActivity" />
+        <activity android:name=".kuda.KudaBelakangActivity" />
+        <activity
+            android:name=".kuda.KudaDepanActivity"
+            android:label="@string/title_activity_kuda_depan"
+            android:theme="@style/Theme.MyPsilat.NoActionBar" />
+        <activity android:name=".tendang.TeknikMenendangActivity" />
+        <activity android:name=".tangkis.TeknikMenangkisActivity" />
+        <activity android:name=".hindar.TeknikMenghindarActivity" />
+        <activity android:name=".elakan.TeknikMengelakActivity" />
+        <activity android:name=".TentangActivity" />
+        <activity android:name=".SkorActivity" />
+        <activity android:name=".EvaluasiActivity" />
+        <activity android:name=".pukul.TeknikPukulActivity" />
+        <activity android:name=".polalangkah.PolaLangkahActivity" />
+        <activity android:name=".kuda.SikapKudaActivity" />
+        <activity android:name=".PerlengkapanTandingActivity" />
+        <activity android:name=".PerlengkapanLapActivity" />
+        <activity android:name=".LapanganActivity" />
+        <activity android:name=".TeknikActivity" />
+        <activity android:name=".SaranaActivity" />
+        <activity android:name=".SeputarActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

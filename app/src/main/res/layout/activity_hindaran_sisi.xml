@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_y"
+    tools:context=".hindar.HindaranSisiActivity">
+
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/background_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/background_teknik"
+        app:layout_constraintBottom_toTopOf="@id/viewCenterOfNext"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgLeft"
+        android:layout_width="38dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/icon_background"
+        android:src="@drawable/ic_round_keyboard_arrow_left"
+        app:layout_constraintBottom_toBottomOf="@id/background_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/background_content" />
+
+    <ImageView
+
+        android:id="@+id/imgRight"
+        android:layout_width="38dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/icon_background"
+        android:src="@drawable/ic_round_chevron_right_24"
+        app:layout_constraintBottom_toBottomOf="@id/background_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/background_content" />
+
+    <LinearLayout
+        android:id="@+id/indicatorContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@id/imgNext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:text="Tahapan Teknik Hindaran Sisi"
+        android:textColor="@color/blue_d"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/back_button"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_arrow_back_teknik"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="@drawable/icon_backgroundd"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@id/imgNext"
+        app:layout_constraintEnd_toEndOf="@id/imgNext"
+        app:layout_constraintStart_toStartOf="@id/imgNext"
+        app:layout_constraintTop_toTopOf="@id/imgNext" />
+
+    <View
+        android:id="@+id/viewCenterOfNext"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        app:layout_constraintBottom_toBottomOf="@id/imgNext"
+        app:layout_constraintEnd_toEndOf="@id/imgNext"
+        app:layout_constraintStart_toStartOf="@id/imgNext"
+        app:layout_constraintTop_toTopOf="@id/imgNext" />
+
+    <ImageView
+        android:id="@+id/imgNext"
+        android:layout_width="38dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/icon_background"
+        android:src="@drawable/ic_round_chevron_right_24"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@id/video_kuda_depan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/video_kuda_depan"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="50dp"
+        app:autoPlay="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -187,7 +187,7 @@
                 android:textColor="@color/white"
                 android:textSize="16dp"
                 android:fontFamily="@font/poppins_light"
-                android:text="    My Psilat Up Games merupakan suatu aplikasi yang digunakan sebagai media pembelajaran mata pelajaran PJOK materi olahraga beladiri pencak silat."
+                android:text="    My Psilat merupakan suatu aplikasi yang digunakan sebagai media pembelajaran mata pelajaran PJOK materi olahraga beladiri pencak silat."
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
             <com.codesgood.views.JustifiedTextView

@@ -20,7 +20,7 @@
     android:layout_below="@id/logo"
     android:textSize="20sp"
     android:fontFamily="@font/poppins_extrabold"
-    android:text="My Psilat Up Games"
+    android:text="My Psilat"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"/>
 </RelativeLayout>

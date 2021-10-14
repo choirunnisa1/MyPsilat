@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_green"
+    tools:context=".ReferenceActivity">
+    <ImageView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_arrow_back_black_24dp"
+        android:id="@+id/back_button"
+        android:layout_width="35dp"
+        android:layout_height="35dp"/>
+
+    <TextView
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/back_button"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Referensi"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"/>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/back_button"
+        android:background="@drawable/background_tek"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Agung Nugroho. (2004). Diklat Pedoman Latihan Pencak Silat.Yogyakarta:FIK.Universitas Negeri Yogyakarta"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <com.codesgood.views.JustifiedTextView
+            android:layout_marginTop="5dp"
+            android:text="Kriswanto, Erwin Setyo. (2015). Pencak Silat. Yogyakarta: Pustaka Baru Press."
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <com.codesgood.views.JustifiedTextView
+            android:layout_marginTop="5dp"
+            android:text="Maryono, O. (1999). Pencak Silat Merentang Waktu. Yogyakarta: Galang Press"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <com.codesgood.views.JustifiedTextView
+            android:layout_marginTop="5dp"
+            android:text="Mulyana. (2013). Pendidikan Pencak Silat: Membangun Jati Diri dan Karakter Bangsa. Bandung: PT Remaja Rosdakarya."
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <com.codesgood.views.JustifiedTextView
+            android:layout_marginTop="5dp"
+            android:text="PB. IPSI.(Februari 2002). Sejarah dan Organisasi Pencak Silat Indonesia. Makalah disajikan dalam Bahan Penataran Juri Festival Pencak Silat Tingkat Nasional, tanggal 2-8 Februari 2002."
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyPsilat</string>
+    <string name="app_name">My Psilat</string>
     <string name="title_activity_kuda_depan">KudaDepanActivity</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>

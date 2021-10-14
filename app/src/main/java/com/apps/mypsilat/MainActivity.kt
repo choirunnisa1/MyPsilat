@@ -32,6 +32,9 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, TentangActivity::class.java))
         }
 
+        reference.setOnClickListener {
+            startActivity(Intent(this, ReferenceActivity::class.java))
+        }
     }
 
     override fun onBackPressed() {

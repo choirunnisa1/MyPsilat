@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyPsilat">
-        <activity android:name=".tendang.TendanganSabitActivity"></activity>
+        <activity android:name=".TeknikJurusActivity"></activity>
+        <activity android:name=".ReferenceActivity" />
+        <activity android:name=".tendang.TendanganSabitActivity" />
         <activity android:name=".tendang.TendanganTActivity" />
         <activity android:name=".tendang.TendanganLurusActivity" />
         <activity android:name=".tangkis.TangkisanLuarActivity" />

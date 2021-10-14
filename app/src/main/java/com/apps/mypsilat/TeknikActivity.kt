@@ -64,6 +64,12 @@ class TeknikActivity : AppCompatActivity() {
             startActivity(Intent(this, TeknikPukulActivity::class.java ))
         }
 
+        more_jurus.paintFlags = more_jurus.paintFlags or Paint.UNDERLINE_TEXT_FLAG
+
+        more_jurus.setOnClickListener {
+            startActivity(Intent(this, TeknikJurusActivity::class.java ))
+        }
+
 
     }
 }

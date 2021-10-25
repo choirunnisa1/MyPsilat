@@ -40,10 +40,9 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
-               <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+               <WebView
                    android:layout_width="match_parent"
                    android:id="@+id/video_jurus"
-                   app:autoPlay="false"
                    android:layout_height="200dp"/>
                 <ScrollView
                     android:layout_width="match_parent"
